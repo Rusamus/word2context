@@ -1,0 +1,6 @@
+transformers==4.28.0
+sentencepiece
+accelerate
+torch
+pandas
+scikit-learn
