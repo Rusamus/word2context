@@ -21,3 +21,6 @@ To run the project, follow these steps:
 Note that the `train.py` script generates the model weights and saves them to the `results` directory. The `inference.py` script loads the trained model weights and generates sentence-context pairs the input words.
 
 You can modify the input data by editing the `word_context_pairs_1k_words_10contexts.csv` file in the `data` directory. 
+
+pretrained checkpoints:
+https://drive.google.com/drive/u/1/folders/1Zm41qpdWjUBmN2792YzUxfPYIbefC5yB
