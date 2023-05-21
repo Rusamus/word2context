@@ -21,7 +21,7 @@ To run the project, follow these steps:
 2. To train the model, execute the following command:
 
     ```
-    python src/train.py
+    python src/main.py
     ```
 
 3. To run inference on the model, execute the following command:
@@ -34,6 +34,8 @@ Note that the `train.py` script generates the model weights and saves them to th
 
 You can modify the input data by editing the `word_context_pairs_1k_words_10contexts.csv` file in the `data` directory. 
 
-pretrained model checkpoints and train data:
-https://drive.google.com/drive/u/1/folders/1Zm41qpdWjUBmN2792YzUxfPYIbefC5yB
+Here's the text with the added information:
 
+Pretrained model checkpoints and training data can be accessed via the following Google Drive link: https://drive.google.com/drive/u/1/folders/1Zm41qpdWjUBmN2792YzUxfPYIbefC5yB
+
+In an evaluation of three models, T5-small, T5-base, and GPT-2, we compared their performance using the BLEU and METEOR metrics, as well as the number of parameters involved. Table \ref{tab:performance_comparison} shows the comparison for 10k samples, revealing that the T5-base model performed better in terms of both BLEU and METEOR scores. For 1M samples, as shown in Table \ref{tab:performance_comparison_large}, the T5-base model still outperformed the other models in terms of BLEU and METEOR scores. However, it is worth noting that the T5-small model had fewer parameters than both the T5-base and GPT
