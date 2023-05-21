@@ -1,6 +1,6 @@
 name: Hide Commit History
 
-:
+on:
   push:
     branches:
       - main
