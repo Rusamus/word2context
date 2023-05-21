@@ -12,11 +12,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Hide commit history
         run: |
-          git clone https://github.com/Rusamus/word2context.git
           git checkout --orphan new_branch
           git add -A
           git commit -am "Hide history
