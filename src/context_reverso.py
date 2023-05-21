@@ -5,7 +5,7 @@ CONTEXT_NUMBER = 10
 url = 'https://context.reverso.net/translation/'
 
 proxies = {
-    "http": "http://user70759:nmj9t0@81.31.243.40:6966"
+    ""
 }
 
 headers = {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
