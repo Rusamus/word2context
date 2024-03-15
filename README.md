@@ -1,5 +1,7 @@
 # [Contextual Clarity: Generating Sentences with Transformer Models using Context-Reverso Data]([Soon](https://arxiv.org/pdf/2403.08103.pdf))
 
+Paper:
+https://arxiv.org/pdf/2403.08103.pdf (Arxiv 2023)
 
 This GitHub repository hosts a natural language processing project utilizing a Transformer-based model to generate concise and unambiguous sentence-contexts for given keywords. This project serves as the final term NLP course project and also acts as the core submodule for the Telegram bot [English for Loosers](https://t.me/english_for_loosers_bot).
 
