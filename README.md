@@ -41,7 +41,6 @@ Note that the `train.py` script generates the model weights and saves them to th
 
 You can modify the input data by editing the `word_context_pairs_1k_words_10contexts.csv` file in the `data` directory. 
 
-Here's the text with the added information:
 
 Pretrained model checkpoints and training data can be accessed via the following Google Drive link: https://drive.google.com/drive/u/1/folders/1Zm41qpdWjUBmN2792YzUxfPYIbefC5yB
 
