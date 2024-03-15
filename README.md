@@ -1,4 +1,4 @@
-# [Contextual Clarity: Generating Sentences with Transformer Models using Context-Reverso Data]([Soon](https://arxiv.org/pdf/2403.08103.pdf))
+# Contextual Clarity: Generating Sentences with Transformer Models using Context-Reverso Data
 
 Paper:
 https://arxiv.org/pdf/2403.08103.pdf (Arxiv 2023)
